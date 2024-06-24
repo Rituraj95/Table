@@ -1,0 +1,87 @@
+
+.table-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .table-container:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  }
+  
+  .table-search {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .table-search .ant-input {
+    width: 250px;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+  
+  .table-search .ant-input:hover,
+  .table-search .ant-input:focus {
+    width: 300px;
+  }
+  
+  .table {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table .ant-table-thead > tr > th {
+    background-color: #e6f7ff;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .table .ant-table-thead > tr > th:hover {
+    background-color: #bae7ff;
+  }
+  
+  .table .ant-table-tbody > tr {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .table .ant-table-tbody > tr:hover {
+    background-color: #f0f5ff;
+    transform: scale(1.01);
+  }
+  
+  .delete-button {
+    color: #ff4d4f;
+    transition: color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    color: #ff7875;
+  }
+  
+  .ant-btn-link {
+    padding: 0;
+    height: auto;
+    border: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .ant-btn-link:hover {
+    color: #ff7875;
+  }
+  
+  .ant-input-affix-wrapper {
+    border-radius: 4px;
+  }
+  
+  .ant-input-affix-wrapper:hover,
+  .ant-input-affix-wrapper:focus {
+    border-color: #40a9ff;
+    box-shadow: 0 0 5px rgba(64, 169, 255, 0.3);
+  }
+  

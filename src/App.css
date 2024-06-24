@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+/* StudentGradesTable.css */
+
+.table-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-search {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-search .ant-input {
+  width: 250px;
+  border-radius: 4px;
+}
+
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table .ant-table-thead > tr > th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.table .ant-table-tbody > tr:hover {
+  background-color: #fafafa;
+}
+
+.delete-button {
+  color: red;
+}
